@@ -14,3 +14,10 @@ int main ()
 		}
    	}	
 }
+/*
+A
+BA
+CBA
+DCBA
+EDCBA
+*/

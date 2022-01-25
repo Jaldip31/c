@@ -4,7 +4,8 @@
 int main()
 {
     int str[100];
-    scanf("%[^\n]",str);
+    // scanf("%[^\n]",str);
+    gets(str);
     printf("%s",strrev(str));
 
 

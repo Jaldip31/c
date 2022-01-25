@@ -13,3 +13,10 @@ int main ()
 		}
    	}
 }
+/* 
+A
+BC
+DEF
+GHIJ
+KLMNO
+*/

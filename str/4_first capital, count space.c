@@ -1,3 +1,4 @@
+// first capital, count space
 #include<stdio.h>
 int main()
 {

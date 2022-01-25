@@ -19,3 +19,10 @@ int main ()
 		}
    	}
 }
+/*
+A
+bc
+DEF
+ghij
+KLMNO
+*/

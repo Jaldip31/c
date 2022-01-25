@@ -1,3 +1,4 @@
+// total marks
 //logic 1 propar
 #include<stdio.h>
 int main()

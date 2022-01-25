@@ -1,3 +1,4 @@
+//capital
 #include<stdio.h>
 int main()
 {

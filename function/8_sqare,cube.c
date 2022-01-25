@@ -1,28 +1,29 @@
+// sqare,cube
 //1
 #include<stdio.h>
-int main()
-{
-    void sqare(int);
-    sqare(1);
-}
+// int main()
+// {
+//     void sqare(int);
+//     sqare(1);
+// }
 
-void sqare(int x)
-{
+// void sqare(int x)
+// {
 
-    void cube(float);
-    printf("\nno %d\n",x);
-    printf("sqare %d\n",x*x);
-    cube(x);
-    if(x<10)
-    {
-        sqare(x+1);
-    }
-}
+//     void cube(float);
+//     printf("\nno %d\n",x);
+//     printf("sqare %d\n",x*x);
+//     cube(x);
+//     if(x<10)
+//     {
+//         sqare(x+1);
+//     }
+// }
 
-void cube(float x)
-{
-    printf("cube %0.2f\n",x*x*x);
-}
+// void cube(float x)
+// {
+//     printf("cube %0.2f\n",x*x*x);
+// }
 //2
 /*
 #include<stdio.h>
@@ -50,6 +51,7 @@ int recur(int x)
 //3
 
 int main()
+{
     int i;
     int sqare(int),cube(int);
     for(i=1;i<11;i++)
@@ -60,7 +62,7 @@ int main()
     }
 
 }
-int sqare(in)
+int sqare(int x)
 {
     return x*x;
 }

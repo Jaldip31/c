@@ -1,3 +1,4 @@
+// matrix sum, multiply
 //matrix A and matrix B
 #include<stdio.h>
 int main()

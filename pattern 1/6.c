@@ -13,3 +13,10 @@ int main ()
 		}
    	}
 }
+/*
+A
+AB
+ABC
+ABCD
+ABCDE
+*/
