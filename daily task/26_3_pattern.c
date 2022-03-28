@@ -1,29 +1,36 @@
-#include<stdio.h>
+
+#include <stdio.h>
 int main()
 {
-    int sum,sp=6,n=6;
-    int arr[10],temp[10];
+    int sum, sp = 6, n = 6, var;
+    int arr[10], temp[10];
+    scanf("%d", &var);
 
-    for(int i=0;i<n;i++){
-        for(int j=1;j<sp;j++)
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 1; j < sp; j++)
             printf("_");
         sp--;
-        int ind=0;
-        for(int j=0;j<=i;j++){
-            if(i==j || j==0){
-                printf(" %d",1);
-                temp[j]=1;
+        int ind = 0;
+        for (int j = 0; j <= i; j++)
+        {
+            if (i == j || j == 0)
+            {
+                printf(" %d", var);
+                temp[j] = var;
             }
-            else{
-                sum=arr[ind]+arr[ind+1];
-                printf(" %d",sum);
-                temp[j]=sum;
+            else
+            {
+                sum = arr[ind] + arr[ind + 1];
+                printf(" %d", sum);
+                temp[j] = sum;
                 ind++;
             }
         }
         printf("\n");
-        for(int k=0;k<n;k++){
-            arr[k]=temp[k];
+        for (int k = 0; k < n; k++)
+        {
+            arr[k] = temp[k];
         }
     }
 }
